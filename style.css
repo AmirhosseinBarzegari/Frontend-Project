@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("./Fonts/Poppins-Regular.ttf"), format("truetype");
+}
+
+body{
+    font-family: "Poppins";
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #7a24b3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big_title{
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0rem;
+    text-transform:uppercase;
+}
+
+.small_title{
+    margin-top: 0rem;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 600;
+}
+
+
+main{
+    height: 300px;
+    width: 800px;
+    border: #000 1px solid;
+    margin: auto;
+    padding: 1rem;
+}
+
+.box{
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 60% auto auto;
+    grid-template-rows: repeat(2,auto);
+    grid-template-areas: "box_text box_word box_char"
+                         "box_text box_tweeter box_fecebook";
+}
+
+.box_text{
+    grid-area: box_text;
+}
+
+.box_text input{
+    height: 100%;
+    width: 100%;
+}
+
+.box_word,
+.box_char,
+.box_tweeter,
+.box_facebook{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #bbeff3;
+    height: 100%;
+    width: 100%;
+}
+
+
+.box_word{
+    grid-area: box_word;
+    margin: auto;
+}
+
+.box_char{
+    grid-area: box_char;
+    margin: auto;
+}
+
+.box_tweeter{
+    grid-area: box_tweeter;
+    margin: auto;
+}
+
+.box_facebook{
+    grid-area: box_fecebook;
+    margin: auto;
+}
