@@ -712,3 +712,592 @@ select {
     width: 1000px;
     height: 280px;
 }
+
+/* Sixth box */
+
+.sixthProductBox{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.sixthProductBox_left{
+   width: 200px;
+   border-top: 3px solid #ffe035;
+
+   padding-left: 2rem;
+}
+
+.sixthProductBox_title{
+    color: #ffe035;
+    font-family: Rhodium Libre;
+    text-transform: uppercase;
+    width: 8.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.sixthProductBox_list{
+    display: flex;
+    flex-direction: column;
+}
+
+.sixthProductBox_listLink{
+    margin-top: 1.5rem;
+    font-size: 13px;
+    color: #555;
+}
+
+.sixthProductBox_listLink:hover{
+    color: #f44336;
+}
+
+
+.sixthProductBox_pro{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+}
+
+.sixthProductBox_top{
+    display: flex;
+}
+    
+
+.sixthProductBox_topPro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 250px;
+
+    overflow: hidden;
+    border-top: 1px solid rgba(164, 163, 159, 0.2);
+    border-right: 1px solid rgba(164, 163, 159, 0.2);
+
+    padding: 0rem 0.5rem;
+}
+
+.topPro1{
+    border-left: 1px solid rgba(164, 163, 159, 0.2);
+}
+
+.sixthProductBox_topPro_img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.sixthProductBox_topPro_p{
+    color: #000;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+
+.sixthProductBox_topPro_price{
+    color: #f44336;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    align-self: first baseline;
+
+}
+
+.sixthProductBox_bottomPro{
+    display: flex;
+    flex-direction: row;
+}
+
+.sixthProductBox_bottomPro_left{
+    width: 500px;
+}
+
+.sixthProductBox_bottomPro_right{
+    width: 500px;
+}
+
+.sixthProductBox_bottomPro_leftImg{
+    width: 500px;
+}
+
+.sixthProductBox_bottomPro_rightImg{
+    width: 500px;
+    border-right: 1px solid rgba(164, 163, 159, 0.2);
+}
+
+
+
+/* Seventh box */
+
+.seventhProductBox{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.seventhProductBox_left{
+   width: 200px;
+   border-top: 3px solid #ff9801;
+
+   padding-left: 2rem;
+}
+
+.seventhProductBox_title{
+    color: #ff9801;
+    font-family: Rhodium Libre;
+    text-transform: uppercase;
+    width: 8.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.seventhProductBox_list{
+    display: flex;
+    flex-direction: column;
+    padding-right: 35px;
+}
+
+.seventhProductBox_listLink{
+    margin-top: 1.5rem;
+    font-size: 13px;
+    color: #555;
+}
+
+.seventhProductBox_listLink:hover{
+    color: #f44336;
+}
+
+
+.seventhProductBox_pro{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+}
+
+.seventhProductBox_top{
+    display: flex;
+}
+    
+
+.seventhProductBox_topPro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 250px;
+
+    overflow: hidden;
+    border-top: 1px solid rgba(164, 163, 159, 0.2);
+    border-right: 1px solid rgba(164, 163, 159, 0.2);
+
+    padding: 0rem 0.5rem;
+}
+
+.topPro1{
+    border-left: 1px solid rgba(164, 163, 159, 0.2);
+}
+
+.seventhProductBox_topPro_img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.seventhProductBox_topPro_p{
+    color: #000;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+
+.seventhProductBox_topPro_price{
+    color: #f44336;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    align-self: first baseline;
+
+}
+
+.seventhProductBox_bottomPro{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.seventhProductBox_bottomProImg{
+    width: 1000px;
+    height: 280px;
+}
+
+/* Eighth box  */
+
+.eighthProductBox{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.eighthProductBox_left{
+   width: 200px;
+   border-top: 3px solid #7a564a;
+
+   padding-left: 2rem;
+}
+
+.eighthProductBox_title{
+    color: #7a564a;
+    font-family: Rhodium Libre;
+    text-transform: uppercase;
+    width: 8.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.eighthProductBox_list{
+    display: flex;
+    flex-direction: column;
+}
+
+.eighthProductBox_listLink{
+    margin-top: 1.5rem;
+    font-size: 13px;
+    color: #555;
+}
+
+.eighthProductBox_listLink:hover{
+    color: #f44336;
+}
+
+
+.eighthProductBox_pro{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+}
+
+.eighthProductBox_top{
+    display: flex;
+}
+    
+
+.eighthProductBox_topPro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 250px;
+
+    overflow: hidden;
+    border-top: 1px solid rgba(164, 163, 159, 0.2);
+    border-right: 1px solid rgba(164, 163, 159, 0.2);
+
+    padding: 0rem 0.5rem;
+}
+
+.topPro1{
+    border-left: 1px solid rgba(164, 163, 159, 0.2);
+}
+
+.eighthProductBox_topPro_img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.eighthProductBox_topPro_p{
+    color: #000;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+
+.eighthProductBox_topPro_price{
+    color: #f44336;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    align-self: first baseline;
+
+}
+
+.eighthProductBox_bottomPro{
+    display: flex;
+    flex-direction: row;
+}
+
+.eighthProductBox_bottomPro_left{
+    width: 500px;
+}
+
+.eighthProductBox_bottomPro_right{
+    width: 500px;
+}
+
+.eighthProductBox_bottomPro_leftImg{
+    width: 500px;
+}
+
+.eighthProductBox_bottomPro_rightImg{
+    width: 500px;
+    border-right: 1px solid rgba(164, 163, 159, 0.2);
+}
+
+/* Ninth box  */
+
+.ninthProductBox{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.ninthProductBox_left{
+   width: 200px;
+   border-top: 3px solid #00968a;
+
+   padding-left: 2rem;
+}
+
+.ninthProductBox_title{
+    color: #00968a;
+    font-family: Rhodium Libre;
+    text-transform: uppercase;
+    width: 8.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.ninthProductBox_list{
+    display: flex;
+    flex-direction: column;
+    padding-right: 35px;
+}
+
+.ninthProductBox_listLink{
+    margin-top: 1.5rem;
+    font-size: 13px;
+    color: #555;
+}
+
+.ninthProductBox_listLink:hover{
+    color: #f44336;
+}
+
+
+.ninthProductBox_pro{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+}
+
+.ninthProductBox_top{
+    display: flex;
+}
+    
+
+.ninthProductBox_topPro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 250px;
+
+    overflow: hidden;
+    border-top: 1px solid rgba(164, 163, 159, 0.2);
+    border-right: 1px solid rgba(164, 163, 159, 0.2);
+
+    padding: 0rem 0.5rem;
+}
+
+.topPro1{
+    border-left: 1px solid rgba(164, 163, 159, 0.2);
+}
+
+.ninthProductBox_topPro_img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.ninthProductBox_topPro_p{
+    color: #000;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+
+.ninthProductBox_topPro_price{
+    color: #f44336;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    align-self: first baseline;
+
+}
+
+.ninthProductBox_bottomPro{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.ninthProductBox_bottomProImg{
+    width: 1000px;
+    height: 280px;
+}
+
+/* Footer  */
+
+.footer_container{
+    width: 1530px;
+    background-color: #fff;
+}
+
+.footer_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.footer_blog{
+    width: 100%;
+    border-right: 1px solid rgba(164, 163, 159, 0.2);
+    padding: 4rem 0;
+}
+
+.footer_blog_title{
+    font-family: Rhodium Libre;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer_blog_link{
+    line-height: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 2rem;
+}
+
+.footer_blog_link:hover{
+    color: #f44336;
+}
+
+.footer_blog_date{
+    padding-left: 2rem;
+    font-size: 12px;
+    color: #999;
+}
+
+.footer_blog_p{
+    padding-left: 2rem;
+    max-width: 32rem;
+    font-size: 12px;
+    color: #7D7C7C;
+    line-height: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.footer_blog_more{
+    padding-left: 2rem;
+    font-size: 12px;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.footer_blog_more:hover{
+    color: #f44336;
+}
+
+.footer_tweeter{
+    width: 100%;
+    padding-top: 4rem;
+    margin-left: 20px;
+}
+
+.footer_tweeter_title{
+    font-family: Rhodium Libre;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer_tweeter_link{
+    font-size: 12px;
+}
+
+
+/* Footer search */
+
+.footer_search{
+    background-color: #222;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer_searchbar{
+    
+}
+
+.fotter_searchbar_box:focus{
+    outline: none;
+}
+
+.fotter_searchbar_box{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 42px;
+    width: 570px;
+}
+
+.fotter_searchbar_box:placeholder-shown{
+    color: #7D7C7C;
+    font-size: 12px;
+    padding-left: 1rem;
+}
+
+
+
