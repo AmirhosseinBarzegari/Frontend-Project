@@ -364,3 +364,351 @@ select {
 }
 
 
+/* Third box  */
+
+.thirdProductBox{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.thirdProductBox_left{
+   width: 200px;
+   border-top: 3px solid #3f51b5;
+
+   padding-left: 2rem;
+}
+
+.thirdProductBox_title{
+    color: #3f51b5;
+    font-family: Rhodium Libre;
+    text-transform: uppercase;
+    width: 8.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.thirdProductBox_list{
+    display: flex;
+    flex-direction: column;
+}
+
+.thirdProductBox_listLink{
+    margin-top: 1.5rem;
+    font-size: 13px;
+    color: #555;
+}
+
+.thirdProductBox_listLink:hover{
+    color: #f44336;
+}
+
+
+.thirdProductBox_pro{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+}
+
+.thirdProductBox_top{
+    display: flex;
+}
+    
+
+.thirdProductBox_topPro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 250px;
+
+    overflow: hidden;
+    border-top: 1px solid rgba(164, 163, 159, 0.2);
+    border-right: 1px solid rgba(164, 163, 159, 0.2);
+
+    padding: 0rem 0.5rem;
+}
+
+.topPro1{
+    border-left: 1px solid rgba(164, 163, 159, 0.2);
+}
+
+.thirdProductBox_topPro_img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.thirdProductBox_topPro_p{
+    color: #000;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+
+.thirdProductBox_topPro_price{
+    color: #f44336;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    align-self: first baseline;
+
+}
+
+.thirdProductBox_bottomPro{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.thirdProductBox_bottomProImg{
+    width: 1000px;
+    height: 280px;
+}
+
+
+/* Fourth box  */
+
+.forthProductBox{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.forthProductBox_left{
+   width: 200px;
+   border-top: 3px solid #03a9f5;
+
+   padding-left: 2rem;
+}
+
+.forthProductBox_title{
+    color: #03a9f5;
+    font-family: Rhodium Libre;
+    text-transform: uppercase;
+    width: 8.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.forthProductBox_list{
+    display: flex;
+    flex-direction: column;
+}
+
+.forthProductBox_listLink{
+    margin-top: 1.5rem;
+    font-size: 13px;
+    color: #555;
+}
+
+.forthProductBox_listLink:hover{
+    color: #f44336;
+}
+
+
+.forthProductBox_pro{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+}
+
+.forthProductBox_top{
+    display: flex;
+}
+    
+
+.forthProductBox_topPro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 250px;
+
+    overflow: hidden;
+    border-top: 1px solid rgba(164, 163, 159, 0.2);
+    border-right: 1px solid rgba(164, 163, 159, 0.2);
+
+    padding: 0rem 0.5rem;
+}
+
+.topPro1{
+    border-left: 1px solid rgba(164, 163, 159, 0.2);
+}
+
+.forthProductBox_topPro_img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.forthProductBox_topPro_p{
+    color: #000;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+
+.forthProductBox_topPro_price{
+    color: #f44336;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    align-self: first baseline;
+
+}
+
+.forthProductBox_bottomPro{
+    display: flex;
+    flex-direction: row;
+}
+
+.forthProductBox_bottomPro_left{
+    width: 500px;
+}
+
+.forthProductBox_bottomPro_right{
+    width: 500px;
+}
+
+.forthProductBox_bottomPro_leftImg{
+    width: 500px;
+}
+
+.forthProductBox_bottomPro_rightImg{
+    width: 500px;
+    border-right: 1px solid rgba(164, 163, 159, 0.2);
+}
+
+
+/* Fiveth box */
+
+.fivethProductBox{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.fivethProductBox_left{
+   width: 200px;
+   border-top: 3px solid #8cc34b;
+
+   padding-left: 2rem;
+}
+
+.fivethProductBox_title{
+    color: #8cc34b;
+    font-family: Rhodium Libre;
+    text-transform: uppercase;
+    width: 8.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.fivethProductBox_list{
+    display: flex;
+    flex-direction: column;
+    padding-right: 35px;
+}
+
+.fivethProductBox_listLink{
+    margin-top: 1.5rem;
+    font-size: 13px;
+    color: #555;
+}
+
+.fivethProductBox_listLink:hover{
+    color: #f44336;
+}
+
+
+.fivethProductBox_pro{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+}
+
+.fivethProductBox_top{
+    display: flex;
+}
+    
+
+.fivethProductBox_topPro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 250px;
+
+    overflow: hidden;
+    border-top: 1px solid rgba(164, 163, 159, 0.2);
+    border-right: 1px solid rgba(164, 163, 159, 0.2);
+
+    padding: 0rem 0.5rem;
+}
+
+.topPro1{
+    border-left: 1px solid rgba(164, 163, 159, 0.2);
+}
+
+.fivethProductBox_topPro_img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.fivethProductBox_topPro_p{
+    color: #000;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+
+.fivethProductBox_topPro_price{
+    color: #f44336;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    align-self: first baseline;
+
+}
+
+.fivethProductBox_bottomPro{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.fivethProductBox_bottomProImg{
+    width: 1000px;
+    height: 280px;
+}
