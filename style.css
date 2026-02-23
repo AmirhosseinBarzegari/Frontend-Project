@@ -156,7 +156,7 @@ select {
     text-transform: uppercase;
     padding: 0rem 0.5rem;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
 }
 
@@ -183,6 +183,7 @@ select {
     margin: 0rem;
 }
 
+/* First box */
 
 .firstProductBox{
     border-top: 4px solid #f44336;
@@ -222,7 +223,6 @@ select {
 }
 
 .firstProductBox_pro_img{
-    /* scale: calc(0.3); */
     margin: 0px;
     max-width: 100%;
 }
@@ -239,4 +239,128 @@ select {
     margin-top: 2.5rem;
     align-self: first baseline;
 }
+
+
+/* Second box */
+
+.secProductBox{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.secProductBox_left{
+   width: 200px;
+   border-top: 3px solid #f44336;
+
+   padding-left: 2rem;
+}
+
+.secProductBox_title{
+    color: #f44336;
+    font-family: Rhodium Libre;
+    text-transform: uppercase;
+    width: 8.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.secProductBox_list{
+    display: flex;
+    flex-direction: column;
+}
+
+.secProductBox_listLink{
+    margin-top: 1.5rem;
+    font-size: 13px;
+    color: #555;
+}
+
+.secProductBox_listLink:hover{
+    color: #f44336;
+}
+
+
+.secProductBox_pro{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+}
+
+.secProductBox_top{
+    display: flex;
+}
+    
+
+.secProductBox_topPro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 250px;
+
+    overflow: hidden;
+    border-top: 1px solid rgba(164, 163, 159, 0.2);
+    border-right: 1px solid rgba(164, 163, 159, 0.2);
+
+    padding: 0rem 0.5rem;
+}
+
+.topPro1{
+    border-left: 1px solid rgba(164, 163, 159, 0.2);
+}
+
+.secProductBox_topPro_img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.secProductBox_topPro_p{
+    color: #000;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+
+.secProductBox_topPro_price{
+    color: #f44336;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    align-self: first baseline;
+
+}
+
+.secProductBox_bottomPro{
+    display: flex;
+    flex-direction: row;
+}
+
+.secProductBox_bottomPro_left{
+    width: 500px;
+}
+
+.secProductBox_bottomPro_right{
+    width: 500px;
+}
+
+.secProductBox_bottomPro_leftImg{
+    width: 500px;
+}
+
+.secProductBox_bottomPro_rightImg{
+    width: 500px;
+    border-right: 1px solid rgba(164, 163, 159, 0.2);
+}
+
 
