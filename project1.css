@@ -169,6 +169,37 @@ select {
     margin-left: 1rem;
 }
 
+.categories{
+    position: relative;
+}
+
+.categories_l{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 276px;
+    position: absolute;
+    top:100%;
+    visibility: hidden;
+}
+
+.categories_li{
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid rgba(164, 163, 159, 0.2);
+    color: #666;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.categories:hover .categories_l,
+.categories_l:hover {
+    display: flex;
+    visibility: visible;
+}
+
+.categories_li:hover{
+    color: #f44336;
+}
 
 .baner{
     width: 1520px;
