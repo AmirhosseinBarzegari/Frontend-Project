@@ -1,0 +1,149 @@
+
+.baner{
+    margin-top: 2rem;
+}
+
+.baner_p{
+    color: #666;
+    font-size: 12px;
+}
+
+.baner_link{
+
+}
+
+.baner_p__p{
+    display: inline-block;
+    justify-self: first baseline;
+}
+
+.banner_img{
+    margin-left: 10.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Product box  */
+
+.product_box_title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 0.5rem;
+}
+
+.product_box_c{
+    background-color: #fff;
+}
+
+.product_box{
+    border: 1px solid rgba(164, 163, 159, 0.3);
+    margin-bottom: 3rem;
+}
+
+.box{
+    
+}
+
+.box_header{
+    border-bottom: 1px solid rgba(164, 163, 159, 0.3);
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+}
+
+.box_header__P1{
+    color: #7D7C7C;
+    font-size: 12px;
+    margin-right: 0.5rem;
+}
+
+.box_header__P2{
+    color: #7D7C7C;
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 2px;
+}
+
+.box_product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5,auto);
+    margin: 0rem 1.5rem;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    padding-bottom: 1rem;
+    border-right: 1px solid rgba(164, 163, 159, 0.3);
+    border-bottom: 1px solid rgba(164, 163, 159, 0.3);
+}
+
+.l_product{
+    border-right: none;
+}
+
+.l_row{
+    border-bottom: none;
+}
+.product_img{
+    margin: 0px;
+    width: 100%;
+}
+
+.product_p{
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 0.5rem;
+}
+
+.product_price{
+    color: #f44336;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    align-self: first baseline;
+}
+
+.box_counter{
+    color: #7D7C7C;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    border-top: 1px solid rgba(164, 163, 159, 0.3);
+}
+
+.box_counter_per{
+    padding: 10px;
+}
+
+.box_counter_num{
+    margin-left: 1.5rem;
+    padding: 10px;
+}
+
+.box_counter_next{
+    margin-left: 1.5rem;
+    padding: 10px;
+}
+
+.box_counter_next:hover,
+.box_counter_per:hover,
+.box_counter_num:hover{
+
+    border: 1px solid rgba(164, 163, 159, 0.3);
+}
+
+.box_counter_num:hover{
+    cursor: pointer;
+    color: #f44336;
+}
+
+

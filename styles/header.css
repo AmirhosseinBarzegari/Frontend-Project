@@ -1,0 +1,148 @@
+/* Header */
+
+.head_container{
+    background-color: #f44336;
+}
+.header_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.header_top_btn{
+    background: #0000001a;
+    padding: 0.4rem 0.6rem;
+}
+
+.header_top_list{
+
+}
+
+.header_top_link{
+    margin-left: 0.5rem;
+}
+
+.header_top_link:hover{
+    color: #000;
+}
+
+.header_bottom{
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_bottom_searchbar{
+    height: 38px;
+    width: 500px;
+    border: none;
+    outline: none;
+}
+
+.header_bottom_searchbar:placeholder-shown{
+    font-size: 0.8rem;
+    padding: 2px 60px 0 15px;
+    color: #7D7C7C;
+}
+.header_bottom_searchbar:focus{
+    outline: none;
+}
+
+.header_bottom_Rightlogo{
+    margin-right: 10rem;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.header_bottom_Rightlogo_p{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.categories_container{
+    background-color: #fff;
+    padding: 0.5rem 0rem;
+}
+
+.categories{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.categories_p{
+    background-color: #222;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 150px 10px 30px;
+    text-align: left;
+    cursor: pointer;
+}
+.categories_list{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap: 2rem;
+
+}
+
+.categories_item{
+    text-transform: uppercase;
+    padding: 0rem 0.5rem;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.categories_item:hover{
+    color: none;
+    color: #f44336;
+}
+
+.categories_item:first-child{
+    margin-left: 1rem;
+}
+
+.categories{
+    position: relative;
+}
+
+.categories_l{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 276px;
+    position: absolute;
+    top:100%;
+    left: 0px;
+    visibility: hidden;
+}
+
+.categories_li{
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid rgba(164, 163, 159, 0.2);
+    color: #666;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.categories_title:hover .categories_l,
+.categories_l:hover {
+    visibility: visible;
+    background-color: #fff;
+}
+
+.categories_li:hover{
+    color: #f44336;
+}
+
+

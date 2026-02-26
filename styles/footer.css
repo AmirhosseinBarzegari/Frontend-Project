@@ -1,0 +1,292 @@
+
+/* Footer  */
+
+.footer_container{
+    width: 1521px;
+    background-color: #fff;
+}
+
+.footer_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.footer_blog{
+    width: 100%;
+    border-right: 1px solid rgba(164, 163, 159, 0.2);
+    padding: 4rem 0;
+}
+
+.footer_blog_title{
+    font-family: Rhodium Libre;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer_blog_link{
+    line-height: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 2rem;
+}
+
+.footer_blog_link:hover{
+    color: #f44336;
+}
+
+.footer_blog_date{
+    padding-left: 2rem;
+    font-size: 12px;
+    color: #999;
+}
+
+.footer_blog_p{
+    padding-left: 2rem;
+    max-width: 32rem;
+    font-size: 12px;
+    color: #7D7C7C;
+    line-height: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.footer_blog_more{
+    padding-left: 2rem;
+    font-size: 12px;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.footer_blog_more:hover{
+    color: #f44336;
+}
+
+.footer_tweeter{
+    width: 100%;
+    padding-top: 4rem;
+    margin-left: 20px;
+}
+
+.footer_tweeter_title{
+    font-family: Rhodium Libre;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer_tweeter_link{
+    font-size: 12px;
+}
+
+
+/* Footer search */
+
+.footer_search{
+    background-color: #222;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer_searchbar{
+    
+}
+
+.fotter_searchbar_box:focus{
+    outline: none;
+}
+
+.fotter_searchbar_box{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 42px;
+    width: 570px;
+}
+
+.fotter_searchbar_box:placeholder-shown{
+    color: #7D7C7C;
+    font-size: 12px;
+    padding-left: 1rem;
+}
+
+
+/* Footer info  */
+
+.footer_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr 1.5fr;
+    grid-template-rows: auto;
+
+    justify-content: center;
+    padding: 3rem 0rem;
+    border-bottom: 1px solid rgba(164, 163, 159, 0.2);
+}
+
+.footer_information{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_information_title,
+.footer_customerservice_title,
+.footer_myaccount_title,
+.footer_aboutus_title,
+.footer_logo_title{
+    font-family: Rhodium Libre;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer_information_list,
+.footer_customerservice_list,
+.footer_myaccount_list{
+    margin-top: 1rem;
+}
+
+.footer_information_link,
+.footer_customerservice_link,
+.footer_myaccount_link{
+    font-size: 13px;
+    font-weight: 300;
+    color: #7D7C7C;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.footer_information_link:hover,
+.footer_customerservice_link:hover,
+.footer_myaccount_link:hover{
+    color: #f44336;
+}
+
+.footer_customerservice{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_myaccount{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_aboutus{
+    display: flex;
+    flex-direction: column;    
+}
+
+.footer_aboutus_p{
+    font-size: 13px;
+    font-weight: 300;
+    color: #7D7C7C;
+    display: block;
+    margin-top: 1rem;
+    width: 250px;
+}
+
+.footer_logo{
+    display: flex;
+    flex-direction: column;    
+}
+
+.footer_logo_img{
+    transform: scale(0.9);
+}
+
+.footer_Img{
+    width: 100%;
+}
+
+.footer_logo_title{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0.3rem;
+}
+
+.footer_logo_p{
+    font-size: 13px;
+    font-weight: 300;
+    color: #7D7C7C;
+    margin-top: 0.5rem;
+}
+
+/* Footer support */
+
+
+.footer_support{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 3rem 1.5rem;
+    grid-gap: 1rem;
+
+    border-bottom: 1px solid rgba(164, 163, 159, 0.2);
+}
+
+.footer_support_payment,
+.footer_support_delivery,
+.footer_support_help{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_support_payment_logo{
+
+}
+
+.footer_support_payment_p,
+.footer_support_delivery_p,
+.footer_support_help_p{
+    margin-left: 1.5rem;
+}
+
+.footer_support_payment_title,
+.footer_support_delivery_title,
+.footer_support_help_title{
+    line-height: 1.1;
+    color: #535353;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer_support_payment_p__p,
+.footer_support_delivery_p__p,
+.footer_support_help_p__p{
+    color: #666;
+    font-size: 12px;
+    margin-top: 0.5rem;
+    line-height: 22px;
+}
+
+
+.footer_copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+}
+
+.footer_copyright_p{
+
+}
+
+.footer_copyright_p__p{
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.footer_copyright_link{
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.footer_copyright_logo{
+
+}
