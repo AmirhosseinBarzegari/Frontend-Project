@@ -137,7 +137,7 @@ select {
     margin-bottom: 0.5rem;
 }
 
-.categories_title{
+.categories_p{
     background-color: #222;
     color: #fff;
     text-transform: uppercase;
@@ -191,10 +191,10 @@ select {
     font-weight: 400;
 }
 
-.categories:hover .categories_l,
+.categories_title:hover .categories_l,
 .categories_l:hover {
-    display: flex;
     visibility: visible;
+    background-color: #fff;
 }
 
 .categories_li:hover{
