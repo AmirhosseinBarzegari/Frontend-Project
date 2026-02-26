@@ -129,12 +129,15 @@ select {
 
 /* Main */
 
+.categories_container{
+    background-color: #fff;
+    padding: 0.5rem 0rem;
+}
+
 .categories{
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
 }
 
 .categories_p{

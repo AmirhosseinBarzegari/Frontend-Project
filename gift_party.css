@@ -129,12 +129,15 @@ select {
 
 /* Main */
 
+.categories_container{
+    background-color: #fff;
+    padding: 0.5rem 0rem;
+}
+
 .categories{
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
 }
 
 .categories_title{
@@ -167,6 +170,39 @@ select {
 
 .categories_item:first-child{
     margin-left: 1rem;
+}
+
+.categories{
+    position: relative;
+}
+
+.categories_l{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 276px;
+    position: absolute;
+    top:100%;
+    left: 0px;
+    visibility: hidden;
+}
+
+.categories_li{
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid rgba(164, 163, 159, 0.2);
+    color: #666;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.categories_li:hover{
+    color: #f44336;
+}
+
+.categories_title:hover .categories_l,
+.categories_l:hover {
+    visibility: visible;
+    background-color: #fff;
 }
 
 .baner{
