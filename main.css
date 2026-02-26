@@ -180,7 +180,7 @@ select {
     width: 276px;
     position: absolute;
     top:100%;
-    right: 77%;
+    left: 0px;
     visibility: hidden;
 }
 
